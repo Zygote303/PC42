@@ -1,0 +1,718 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Accum Capacity Full" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\Accum Capacity Full.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_19_19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\19-19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fryer_On_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\Fryer On 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StatusMotorFAULT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\StatusMotorFAULT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FryerHMITutPic9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\FryerHMITutPic9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StatusMotorOFF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\StatusMotorOFF.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StatusMotorON1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\StatusMotorON.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PileOfChips" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\kisspng-french-fries-tapioca-chips-bikaneri-bhujia-indones-potato-chips-5a807574d74d36.3862105715183681168819.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LaningConveyor1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\FryerHMITutPic16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Empty_Fryer_2_Grey_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\Tuts\Empty Fryer 2 Grey 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HMIMM55SS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\FryerHMITutPic26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fryer_Off" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\Fryer Off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OilPouring" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\FryerBasicsTutPic6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Empty_Fryer_2_Grey_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\Tuts\Empty Fryer 2 Grey 12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HMISlicerFeedSS5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\FryerHMITutPic15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Red Cross" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\Red Cross.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chip" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\Chip.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FryerChipsEmerging" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\FryerHMITutPic1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Empty_Fryer_2_Grey_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\Tuts\Empty Fryer 2 Grey 5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Control-Valve-Symbol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\Control-Valve-Symbol.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Accum Capacity Empty" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\Accum Capacity Empty.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HMIFryerScreenMakeUpValveSS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\FryerHMITutPic36.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GreenLitButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Pictures\GreenLitButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_13_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\13-13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngwingON1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Downloads\pngwingON.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SlicerOnImage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\Tuts\SlicerOnImage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OilSplash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\FryerBasicsTutPic5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HMIRGManualSS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\FryerHMITutPic32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Empty_Fryer_2_Grey_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\Tuts\Empty Fryer 2 Grey 7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HMIMasterSpeedManSS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\FryerHMITutPic24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_32_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\32-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HMISlicerFeedSS1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\FryerHMITutPic11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FryerHMITutPic3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\FryerHMITutPic3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_9_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\9-9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chip Defects 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\Chip Defects 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_12_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\12-12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_17_17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\17-17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FryerHMITutPic8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\FryerHMITutPic8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Empty_Fryer_2_Grey_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\Tuts\Empty Fryer 2 Grey 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_11_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\11-11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HMIDischargeConvSS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\FryerHMITutPic30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fryer_On_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\Fryer On 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HMIOilpumpSS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\FryerHMITutPic35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bubbler_Level_Measurement_System" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\Bubbler-Level-Measurement-System.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ImageOfHMIScreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\FryerHMITutPic2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HMIMoistureOutputSS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\FryerHMITutPic25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Empty_Fryer_2_Grey_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\Tuts\Empty Fryer 2 Grey 11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GreenTick" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\99.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StatusMotorON" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\Tuts\StatusMotorON.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngwingStandby2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Downloads\pngwingStandby.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Yellow Excl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\AnalogIn_toMeter_SW_Timed\Yellow Excl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_34_34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\34-34.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_16_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\16-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RedButtonNotLit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Documents\RedButtonNotLit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_28_28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\28-28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Empty_Fryer_2_Grey_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\Tuts\Empty Fryer 2 Grey 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HMIFullSS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\FryerHMITutPic3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fresh-fried-crisps" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\fresh-fried-crisps.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Accum Capacity Full1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\Accum Capacity Full.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HMISetpointInletTempSS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\FryerHMITutPic20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Green Tick" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\Green Tick.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Empty_Fryer_Grey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\Tuts\Empty Fryer Grey.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HMIFryerInfeedSS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\FryerHMITutPic10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Empty_Fryer_2_Grey_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\Tuts\Empty Fryer 2 Grey 8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StatusMotorSTANDBY3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\StatusMotorSTANDBY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spuds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\FryerBasicsTutPic6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_37" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\37.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StatusMotorSTANDBY2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\Tuts\StatusMotorSTANDBY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kisspng-french-fries-tapioca-chips-bikaneri-bhujia-indones-potato-chips-5a807574d74d36.3862105715183681168819" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\kisspng-french-fries-tapioca-chips-bikaneri-bhujia-indones-potato-chips-5a807574d74d36.3862105715183681168819.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HMIRGAutoSS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\FryerHMITutPic31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HMISlicerFeedSS2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\FryerHMITutPic12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HMIInfedDriveStatusSS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\FryerHMITutPic19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\3-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\8-8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StatusMotorSTANDBY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\Tuts\StatusMotorSTANDBY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kisspng-french-fries-junk-food-potato-chip-crisp-potato-chips-5a71742d961c93.3523228015173847496149" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\kisspng-french-fries-junk-food-potato-chip-crisp-potato-chips-5a71742d961c93.3523228015173847496149.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kisspng-french-fries-junk-food-potato-chip-crisp-potato-chips-5a71742d961c93.35232280151738474961491" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Downloads\kisspng-french-fries-junk-food-potato-chip-crisp-potato-chips-5a71742d961c93.3523228015173847496149.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\images.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="corn_products_fryer_index_555x300" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\corn-products-fryer-index-555x300.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_14_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\14-14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_40_40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\40-40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kisspng-french-fries-junk-food-potato-chip-crisp-potato-chips-5a71742d961c931" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\kisspng-french-fries-junk-food-potato-chip-crisp-potato-chips-5a71742d961c93.3523228015173847496149.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FryerHMITutPic7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\FryerHMITutPic7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BurnerJetFlame" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\FryerBasicsTutPic2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Empty_Fryer_2_Grey_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\Tuts\Empty Fryer 2 Grey 10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_21_21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\21-21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fryer_On_Chips_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\Fryer On Chips 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HMIMoistureSetPointsSS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\FryerHMITutPic27.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Off Button Slider" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\Tuts\Off Button Slider.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\33.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_20_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\20-20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_24_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\24-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Scales" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\Tuts\Scales.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\29.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_31_31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\31-31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_10_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\10-10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_30_30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\30-30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngwingStandby1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Downloads\pngwingStandby.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Empty_Fryer_2_Grey_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\Tuts\Empty Fryer 2 Grey 9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngwingStandby" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Downloads\pngwingStandby.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_26_26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\26-26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_22_22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\22-22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\2-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RedLitButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Documents\RedLitButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\27.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Empty_Fryer_2_Grey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\Tuts\Empty Fryer 2 Grey.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_38_38" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\38-38.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FryerChipsEmerging2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\FryerBasicsTutPic8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\7-7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_41_41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\41-41.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HMIMasterSpeedSS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\FryerHMITutPic23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HMIOutletTempSS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\FryerHMITutPic22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HMILaningConvSS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\FryerHMITutPic18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\34.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MathsEquation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\FryerBasicsTutPic7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MM55" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Downloads\MM55.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Valve" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Downloads\kisspng-ball-valve-stainless-steel-tap-5b1ba3e53875e2.4274295815285380852313.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HMIKHXSS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\FryerHMITutPic29.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FryerHMITutPic6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\FryerHMITutPic6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_39_39" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\39-39.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kisspng-french-fries-fast-food-potato-chip-deep-frying-delicious-potato-chips-5a804d7bf01c20.9057982915183578839835" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\Tuts\kisspng-french-fries-fast-food-potato-chip-deep-frying-delicious-potato-chips-5a804d7bf01c20.9057982915183578839835.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GreenUnlitButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Pictures\GreenUnlitButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\36.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ChipsInPile1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\FryerBasicsTutPic9.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FryerHMITutPic4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\FryerHMITutPic4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngwingON" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Downloads\pngwingON.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StatusMotorSTANDBY1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\Tuts\StatusMotorSTANDBY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LaningConveyor2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\FryerHMITutPic17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HMIDeltaTSS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\FryerHMITutPic21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\1-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_23_23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\23-23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_37_37" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\37-37.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Empty_Fryer_2_Grey_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\Tuts\Empty Fryer 2 Grey 4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\5-5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_36_36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\36-36.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Congratulations" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\FryerHMITutPic37.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OilPool" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\FryerBasicsTutPic4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="On Button Slider" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\Tuts\On Button Slider.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kisspng_french_fries_junk_food_potato_chip_crisp_potato_chips_5a71742d961c93_3523228015173847496149" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\kisspng-french-fries-junk-food-potato-chip-crisp-potato-chips-5a71742d961c93.3523228015173847496149.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_27_27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\27-27.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Empty_Fryer_2_Grey_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\Tuts\Empty Fryer 2 Grey 6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HMIOutfeedSS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\FryerHMITutPic33.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_15_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\15-15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_6_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\6-6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_33_33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\33-33.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="corn_products_fryer_index_555x3001" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\corn-products-fryer-index-555x300.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SlicersImage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\FryerBasicsTutPic3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="corn-products-fryer-index-555x300" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\corn-products-fryer-index-555x300.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_35_35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\35-35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HMISlicerFeedSS4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\FryerHMITutPic14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\4-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FryerHMITutPic5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\FryerHMITutPic5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_38" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\38.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_25_25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\25-25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\images.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fryer_On_Chips_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\Fryer On Chips 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\41.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HMIMakeUPValveSS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\FryerHMITutPic28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HMIAccumSS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\FryerHMITutPic34.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_39" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\39.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SlicerOffImage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\Tuts\SlicerOffImage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chip_Defects_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\Chip Defects 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HMISlicerFeedSS3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\FryerHMITutPic13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3D button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\Tuts\3D button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_29_29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\PC42Images\29-29.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PAEGame" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Desktop\Tuts\PAEGame.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CardBack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Downloads\pngwing.com (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CardFront" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Downloads\CardFront.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
